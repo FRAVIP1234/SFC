@@ -1,0 +1,44 @@
+[
+    {
+        "codigo": "B6H-852-camion-001",
+        "nombre": "Manijas superiores en cabina",
+        "precio_inicial": 0.0,
+        "precio_venta": 180.0
+    },
+    {
+        "codigo": "B6H-852-camion-002",
+        "nombre": "Guardapolvo de palanca de cambio",
+        "precio_inicial": 0.0,
+        "precio_venta": 240.0
+    },
+    {
+        "codigo": "B6H-852-camion-003",
+        "nombre": "Cinturones (piloto \u2013 copiloto)",
+        "precio_inicial": 0.0,
+        "precio_venta": 290.0
+    },
+    {
+        "codigo": "B6H-852-camion-004",
+        "nombre": "Kit Pintura de cabinas y carrocer\u00eda",
+        "precio_inicial": 0.0,
+        "precio_venta": 5600.0
+    },
+    {
+        "codigo": "B6H-852-camion-005",
+        "nombre": "Tapizado de asientos",
+        "precio_inicial": 0.0,
+        "precio_venta": 800.0
+    },
+    {
+        "codigo": "B6H-852-camion-006",
+        "nombre": "Bomba de inyecci\u00f3n",
+        "precio_inicial": 0.0,
+        "precio_venta": 6700.0
+    },
+    {
+        "codigo": "B6H-852-camion-007",
+        "nombre": "Aceite de caja y corona (gal\u00f3n)",
+        "precio_inicial": 0.0,
+        "precio_venta": 98.0
+    }
+]      

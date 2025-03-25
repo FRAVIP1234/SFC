@@ -1,0 +1,512 @@
+[
+  {
+      "codigo": "B6M-880-001",
+      "nombre": "Manijas superiores en cabina",
+      "precio_inicial": 0.0,
+      "precio_venta": 180.0
+  },
+  {
+      "codigo": "B6M-880-002",
+      "nombre": "Guardapolvo de palanca de cambio",
+      "precio_inicial": 0.0,
+      "precio_venta": 240.0
+  },
+  {
+      "codigo": "B6M-880-003",
+      "nombre": "Cinturones (piloto \u2013 copiloto)",
+      "precio_inicial": 0.0,
+      "precio_venta": 290.0
+  },
+  {
+      "codigo": "B6M-880-004",
+      "nombre": "Alero de cabina",
+      "precio_inicial": 0.0,
+      "precio_venta": 480.0
+  },
+  {
+      "codigo": "B6M-880-005",
+      "nombre": "Limpia parabrizas",
+      "precio_inicial": 0.0,
+      "precio_venta": 340.0
+  },
+  {
+      "codigo": "B6M-880-006",
+      "nombre": "Manijas de lunas",
+      "precio_inicial": 0.0,
+      "precio_venta": 100.0
+  },
+  {
+      "codigo": "B6M-880-007",
+      "nombre": "Kit Pintura de cabinas y carrocer\u00eda",
+      "precio_inicial": 0.0,
+      "precio_venta": 5600.0
+  },
+  {
+      "codigo": "B6M-880-008",
+      "nombre": "Tapizado de asientos",
+      "precio_inicial": 0.0,
+      "precio_venta": 800.0
+  },
+  {
+      "codigo": "B6M-880-009",
+      "nombre": "Tapizado interior de cabina",
+      "precio_inicial": 0.0,
+      "precio_venta": 700.0
+  },
+  {
+      "codigo": "B6M-880-010",
+      "nombre": "Tablero de cabina",
+      "precio_inicial": 0.0,
+      "precio_venta": 2900.0
+  },
+  {
+      "codigo": "B6M-880-011",
+      "nombre": "Luces laterales de marcador de carrocer\u00eda",
+      "precio_inicial": 0.0,
+      "precio_venta": 50.0
+  },
+  {
+      "codigo": "B6M-880-012",
+      "nombre": "Faros intermitentes",
+      "precio_inicial": 0.0,
+      "precio_venta": 240.0
+  },
+  {
+      "codigo": "B6M-880-013",
+      "nombre": "Claxon alta y baja",
+      "precio_inicial": 0.0,
+      "precio_venta": 340.0
+  },
+  {
+      "codigo": "B6M-880-014",
+      "nombre": "Arrancador",
+      "precio_inicial": 0.0,
+      "precio_venta": 980.0
+  },
+  {
+      "codigo": "B6M-880-015",
+      "nombre": "Faros posteriores led",
+      "precio_inicial": 0.0,
+      "precio_venta": 640.0
+  },
+  {
+      "codigo": "B6M-880-016",
+      "nombre": "Luz de cabina - led",
+      "precio_inicial": 0.0,
+      "precio_venta": 280.0
+  },
+  {
+      "codigo": "B6M-880-017",
+      "nombre": "Alternador",
+      "precio_inicial": 0.0,
+      "precio_venta": 1400.0
+  },
+  {
+      "codigo": "B6M-880-018",
+      "nombre": "Alimentaci\u00f3n sistema de inyecci\u00f3n",
+      "precio_inicial": 0.0,
+      "precio_venta": 2600.0
+  },
+  {
+      "codigo": "B6M-880-019",
+      "nombre": "Fusibles \u2013 rel\u00e9s",
+      "precio_inicial": 0.0,
+      "precio_venta": 2500.0
+  },
+  {
+      "codigo": "B6M-880-020",
+      "nombre": "Kit de mantenimiento de motor",
+      "precio_inicial": 0.0,
+      "precio_venta": 3600.0
+  },
+  {
+      "codigo": "B6M-880-021",
+      "nombre": "Faros piratas posteriores",
+      "precio_inicial": 0.0,
+      "precio_venta": 160.0
+  },
+  {
+      "codigo": "B6M-880-022",
+      "nombre": "Neblineros led",
+      "precio_inicial": 0.0,
+      "precio_venta": 140.0
+  },
+  {
+      "codigo": "B6M-880-023",
+      "nombre": "Bornes de bater\u00eda",
+      "precio_inicial": 0.0,
+      "precio_venta": 35.0
+  },
+  {
+      "codigo": "B6M-880-024",
+      "nombre": "Cable de alta tensi\u00f3n para alimentaci\u00f3n de bater\u00eda",
+      "precio_inicial": 0.0,
+      "precio_venta": 380.0
+  },
+  {
+      "codigo": "B6M-880-025",
+      "nombre": "Bater\u00edas",
+      "precio_inicial": 0.0,
+      "precio_venta": 390.0
+  },
+  {
+      "codigo": "B6M-880-026",
+      "nombre": "Mantenimiento radiadores",
+      "precio_inicial": 0.0,
+      "precio_venta": 2400.0
+  },
+  {
+      "codigo": "B6M-880-027",
+      "nombre": "Enfriador de motor",
+      "precio_inicial": 0.0,
+      "precio_venta": 1800.0
+  },
+  {
+      "codigo": "B6M-880-028",
+      "nombre": "Bomba de agua",
+      "precio_inicial": 0.0,
+      "precio_venta": 940.0
+  },
+  {
+      "codigo": "B6M-880-029",
+      "nombre": "Ventilador",
+      "precio_inicial": 0.0,
+      "precio_venta": 300.0
+  },
+  {
+      "codigo": "B6M-880-030",
+      "nombre": "Refrigerante de motor 50% concentrado",
+      "precio_inicial": 0.0,
+      "precio_venta": 70.0
+  },
+  {
+      "codigo": "B6M-880-031",
+      "nombre": "Termostato",
+      "precio_inicial": 0.0,
+      "precio_venta": 240.0
+  },
+  {
+      "codigo": "B6M-880-032",
+      "nombre": "Tapa de radiador",
+      "precio_inicial": 0.0,
+      "precio_venta": 90.0
+  },
+  {
+      "codigo": "B6M-880-033",
+      "nombre": "Sensor de veloc\u00edmetro",
+      "precio_inicial": 0.0,
+      "precio_venta": 480.0
+  },
+  {
+      "codigo": "B6M-880-034",
+      "nombre": "Mangueras principales",
+      "precio_inicial": 0.0,
+      "precio_venta": 240.0
+  },
+  {
+      "codigo": "B6M-880-035",
+      "nombre": "Mangueras secundarias",
+      "precio_inicial": 0.0,
+      "precio_venta": 80.0
+  },
+  {
+      "codigo": "B6M-880-036",
+      "nombre": "Tambores posteriores",
+      "precio_inicial": 0.0,
+      "precio_venta": 3400.0
+  },
+  {
+      "codigo": "B6M-880-037",
+      "nombre": "Tambores delanteros",
+      "precio_inicial": 0.0,
+      "precio_venta": 3100.0
+  },
+  {
+      "codigo": "B6M-880-038",
+      "nombre": "Juego de zapatas",
+      "precio_inicial": 0.0,
+      "precio_venta": 680.0
+  },
+  {
+      "codigo": "B6M-880-039",
+      "nombre": "Juego de resortes",
+      "precio_inicial": 0.0,
+      "precio_venta": 200.0
+  },
+  {
+      "codigo": "B6M-880-040",
+      "nombre": "Juego de bombines delanteros",
+      "precio_inicial": 0.0,
+      "precio_venta": 860.0
+  },
+  {
+      "codigo": "B6M-880-041",
+      "nombre": "Juegos delanteros posteriores",
+      "precio_inicial": 0.0,
+      "precio_venta": 930.0
+  },
+  {
+      "codigo": "B6M-880-042",
+      "nombre": "Reemplazo ca\u00f1er\u00edas de freno",
+      "precio_inicial": 0.0,
+      "precio_venta": 45.0
+  },
+  {
+      "codigo": "B6M-880-043",
+      "nombre": "Bomba de frenos",
+      "precio_inicial": 0.0,
+      "precio_venta": 1960.0
+  },
+  {
+      "codigo": "B6M-880-044",
+      "nombre": "Servo bomba",
+      "precio_inicial": 0.0,
+      "precio_venta": 2300.0
+  },
+  {
+      "codigo": "B6M-880-045",
+      "nombre": "L\u00edquido de frenos",
+      "precio_inicial": 0.0,
+      "precio_venta": 80.0
+  },
+  {
+      "codigo": "B6M-880-046",
+      "nombre": "Freno auxiliar (zapatas y resorte)",
+      "precio_inicial": 0.0,
+      "precio_venta": 680.0
+  },
+  {
+      "codigo": "B6M-880-047",
+      "nombre": "Cable de frenos auxiliar",
+      "precio_inicial": 0.0,
+      "precio_venta": 780.0
+  },
+  {
+      "codigo": "B6M-880-048",
+      "nombre": "Pernos de rueda posteriores",
+      "precio_inicial": 0.0,
+      "precio_venta": 28.0
+  },
+  {
+      "codigo": "B6M-880-049",
+      "nombre": "Pernos de rueda posterior",
+      "precio_inicial": 0.0,
+      "precio_venta": 29.0
+  },
+  {
+      "codigo": "B6M-880-050",
+      "nombre": "Amortiguadores delanteros",
+      "precio_inicial": 0.0,
+      "precio_venta": 680.0
+  },
+  {
+      "codigo": "B6M-880-051",
+      "nombre": "Amortiguadores posteriores",
+      "precio_inicial": 0.0,
+      "precio_venta": 540.0
+  },
+  {
+      "codigo": "B6M-880-052",
+      "nombre": "Soporte de ballesta",
+      "precio_inicial": 0.0,
+      "precio_venta": 240.0
+  },
+  {
+      "codigo": "B6M-880-053",
+      "nombre": "Abrazaderas de ballesta",
+      "precio_inicial": 0.0,
+      "precio_venta": 180.0
+  },
+  {
+      "codigo": "B6M-880-054",
+      "nombre": "Jebes de soporte de ballesta",
+      "precio_inicial": 0.0,
+      "precio_venta": 120.0
+  },
+  {
+      "codigo": "B6M-880-055",
+      "nombre": "Topes suspensi\u00f3n",
+      "precio_inicial": 0.0,
+      "precio_venta": 90.0
+  },
+  {
+      "codigo": "B6M-880-056",
+      "nombre": "Terminales",
+      "precio_inicial": 0.0,
+      "precio_venta": 350.0
+  },
+  {
+      "codigo": "B6M-880-057",
+      "nombre": "Pines delanteros",
+      "precio_inicial": 0.0,
+      "precio_venta": 2600.0
+  },
+  {
+      "codigo": "B6M-880-058",
+      "nombre": "Rodajes de rueda",
+      "precio_inicial": 0.0,
+      "precio_venta": 380.0
+  },
+  {
+      "codigo": "B6M-880-059",
+      "nombre": "Cruceta de columna de direcci\u00f3n",
+      "precio_inicial": 0.0,
+      "precio_venta": 420.0
+  },
+  {
+      "codigo": "B6M-880-060",
+      "nombre": "Mantenimiento de caja de direcci\u00f3n",
+      "precio_inicial": 0.0,
+      "precio_venta": 4600.0
+  },
+  {
+      "codigo": "B6M-880-061",
+      "nombre": "Servo",
+      "precio_inicial": 0.0,
+      "precio_venta": 3700.0
+  },
+  {
+      "codigo": "B6M-880-062",
+      "nombre": "Hidrolina",
+      "precio_inicial": 0.0,
+      "precio_venta": 180.0
+  },
+  {
+      "codigo": "B6M-880-063",
+      "nombre": "Retenes de ruedas delantero",
+      "precio_inicial": 0.0,
+      "precio_venta": 290.0
+  },
+  {
+      "codigo": "B6M-880-064",
+      "nombre": "Retenes de rueda posteriores",
+      "precio_inicial": 0.0,
+      "precio_venta": 340.0
+  },
+  {
+      "codigo": "B6M-880-065",
+      "nombre": "Kit de reparaci\u00f3n de motor",
+      "precio_inicial": 0.0,
+      "precio_venta": 20000.0
+  },
+  {
+      "codigo": "B6M-880-066",
+      "nombre": "Bomba de inyecci\u00f3n",
+      "precio_inicial": 0.0,
+      "precio_venta": 6700.0
+  },
+  {
+      "codigo": "B6M-880-067",
+      "nombre": "Tubo de escape completo",
+      "precio_inicial": 0.0,
+      "precio_venta": 4870.0
+  },
+  {
+      "codigo": "B6M-880-068",
+      "nombre": "Freno de motor",
+      "precio_inicial": 0.0,
+      "precio_venta": 2400.0
+  },
+  {
+      "codigo": "B6M-880-069",
+      "nombre": "Turbo",
+      "precio_inicial": 0.0,
+      "precio_venta": 4900.0
+  },
+  {
+      "codigo": "B6M-880-070",
+      "nombre": "Kit de Mantenimiento intercooler",
+      "precio_inicial": 0.0,
+      "precio_venta": 1600.0
+  },
+  {
+      "codigo": "B6M-880-071",
+      "nombre": "Mangueras de combustible",
+      "precio_inicial": 0.0,
+      "precio_venta": 1980.0
+  },
+  {
+      "codigo": "B6M-880-072",
+      "nombre": "Bomba auxiliar de combustible",
+      "precio_inicial": 0.0,
+      "precio_venta": 980.0
+  },
+  {
+      "codigo": "B6M-880-073",
+      "nombre": "Kit de anillo de aluminio \u2013 niples",
+      "precio_inicial": 0.0,
+      "precio_venta": 240.0
+  },
+  {
+      "codigo": "B6M-880-074",
+      "nombre": "Juego de filtros generales",
+      "precio_inicial": 0.0,
+      "precio_venta": 480.0
+  },
+  {
+      "codigo": "B6M-880-075",
+      "nombre": "Sistema de embrague (kit completo)",
+      "precio_inicial": 0.0,
+      "precio_venta": 2900.0
+  },
+  {
+      "codigo": "B6M-880-076",
+      "nombre": "Bomba de embrague principal \u2013 secundario",
+      "precio_inicial": 0.0,
+      "precio_venta": 1980.0
+  },
+  {
+      "codigo": "B6M-880-077",
+      "nombre": "Cruceta de cardan",
+      "precio_inicial": 0.0,
+      "precio_venta": 780.0
+  },
+  {
+      "codigo": "B6M-880-078",
+      "nombre": "Jebe centro de cardan",
+      "precio_inicial": 0.0,
+      "precio_venta": 1380.0
+  },
+  {
+      "codigo": "B6M-880-079",
+      "nombre": "Aceite de caja y corona",
+      "precio_inicial": 0.0,
+      "precio_venta": 98.0
+  },
+  {
+      "codigo": "B6M-880-080",
+      "nombre": "Planetarios",
+      "precio_inicial": 0.0,
+      "precio_venta": 3200.0
+  },
+  {
+      "codigo": "B6M-880-081",
+      "nombre": "Rodaje",
+      "precio_inicial": 0.0,
+      "precio_venta": 280.0
+  },
+  {
+      "codigo": "B6M-880-082",
+      "nombre": "Kit mantenimiento de caja de velocidad",
+      "precio_inicial": 0.0,
+      "precio_venta": 3150.0
+  },
+  {
+      "codigo": "B6M-880-083",
+      "nombre": "Cables de palanca de velocidad",
+      "precio_inicial": 0.0,
+      "precio_venta": 2600.0
+  },
+  {
+      "codigo": "B6M-880-084",
+      "nombre": "Kit de bocina de palancas de cambio",
+      "precio_inicial": 0.0,
+      "precio_venta": 790.0
+  },
+  {
+      "codigo": "B6M-880-085",
+      "nombre": "Pulsador de acelerador autom\u00e1tico",
+      "precio_inicial": 0.0,
+      "precio_venta": 1600.0
+  }
+]

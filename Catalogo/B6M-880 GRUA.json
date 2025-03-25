@@ -1,0 +1,146 @@
+[
+    {
+        "codigo": "880-grua-001-001",
+        "nombre": "Kit de retenes de pistones 1\u00b0y 2\u00b0",
+        "precio_inicial": 0.0,
+        "precio_venta": 580.0
+    },
+    {
+        "codigo": "880-grua-001-002",
+        "nombre": "Kit de retenes de pistones estabilizadores",
+        "precio_inicial": 0.0,
+        "precio_venta": 450.0
+    },
+    {
+        "codigo": "880-grua-001-003",
+        "nombre": "Pin de brazo y pistones",
+        "precio_inicial": 0.0,
+        "precio_venta": 490.0
+    },
+    {
+        "codigo": "880-grua-001-004",
+        "nombre": "Kit de pintura en general del brazo hidr\u00e1ulico",
+        "precio_inicial": 0.0,
+        "precio_venta": 1700.0
+    },
+    {
+        "codigo": "880-grua-001-005",
+        "nombre": "Kit de pernos en general",
+        "precio_inicial": 0.0,
+        "precio_venta": 940.0
+    },
+    {
+        "codigo": "880-grua-001-006",
+        "nombre": "Palanca del mando superior en cesta",
+        "precio_inicial": 0.0,
+        "precio_venta": 2600.0
+    },
+    {
+        "codigo": "880-grua-001-007",
+        "nombre": "Kit de Filtros hidr\u00e1ulicos",
+        "precio_inicial": 0.0,
+        "precio_venta": 800.0
+    },
+    {
+        "codigo": "880-grua-001-008",
+        "nombre": "Juego de bocina de pines",
+        "precio_inicial": 0.0,
+        "precio_venta": 220.0
+    },
+    {
+        "codigo": "880-grua-001-009",
+        "nombre": "Bocina de columna del sistema de giro",
+        "precio_inicial": 0.0,
+        "precio_venta": 4800.0
+    },
+    {
+        "codigo": "880-grua-001-010",
+        "nombre": "Cadena de nivelaci\u00f3n de cesta",
+        "precio_inicial": 0.0,
+        "precio_venta": 2400.0
+    },
+    {
+        "codigo": "880-grua-001-011",
+        "nombre": "Juego de sticker de se\u00f1alizaci\u00f3n",
+        "precio_inicial": 0.0,
+        "precio_venta": 790.0
+    },
+    {
+        "codigo": "880-grua-001-012",
+        "nombre": "Reten del sistema de giro en el motor hidr\u00e1ulico",
+        "precio_inicial": 0.0,
+        "precio_venta": 790.0
+    },
+    {
+        "codigo": "880-grua-001-013",
+        "nombre": "Bomba hidr\u00e1ulica",
+        "precio_inicial": 0.0,
+        "precio_venta": 5600.0
+    },
+    {
+        "codigo": "880-grua-001-014",
+        "nombre": "Toma fuerza",
+        "precio_inicial": 0.0,
+        "precio_venta": 4500.0
+    },
+    {
+        "codigo": "880-grua-001-015",
+        "nombre": "Base de palanca de mano",
+        "precio_inicial": 0.0,
+        "precio_venta": 290.0
+    },
+    {
+        "codigo": "880-grua-001-016",
+        "nombre": "Juego de mangueras aisladas",
+        "precio_inicial": 0.0,
+        "precio_venta": 5880.0
+    },
+    {
+        "codigo": "880-grua-001-017",
+        "nombre": "Juego de mangueras en la tornamesa",
+        "precio_inicial": 0.0,
+        "precio_venta": 2600.0
+    },
+    {
+        "codigo": "880-grua-001-018",
+        "nombre": "V\u00e1lvula de retenci\u00f3n de articulaci\u00f3n",
+        "precio_inicial": 0.0,
+        "precio_venta": 2800.0
+    },
+    {
+        "codigo": "880-grua-001-019",
+        "nombre": "Kit de reten del giro sin fin",
+        "precio_inicial": 0.0,
+        "precio_venta": 1600.0
+    },
+    {
+        "codigo": "880-grua-001-020",
+        "nombre": "Aceite hidr\u00e1ulico (gal\u00f3n)",
+        "precio_inicial": 0.0,
+        "precio_venta": 75.0
+    },
+    {
+        "codigo": "880-grua-001-021",
+        "nombre": "V\u00e1lvula de accionamiento de toma fuerza",
+        "precio_inicial": 0.0,
+        "precio_venta": 980.0
+    },
+    {
+        "codigo": "880-grua-001-022",
+        "nombre": "Hor\u00f3metro de gr\u00faa",
+        "precio_inicial": 0.0,
+        "precio_venta": 780.0
+    },
+    {
+        "codigo": "880-grua-001-023",
+        "nombre": "Kit de reparaci\u00f3n de m\u00f3dulos hidr\u00e1ulicos",
+        "precio_inicial": 0.0,
+        "precio_venta": 2980.0
+    },
+    {
+        "codigo": "880-grua-001-024",
+        "nombre": "Prueba de esfuerzo mec\u00e1nicos y certificaci\u00f3n",
+        "precio_inicial": 0.0,
+        "precio_venta": 3700.0
+    }
+]

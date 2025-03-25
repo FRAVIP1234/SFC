@@ -1,0 +1,93 @@
+[
+  {
+    "codigo": "P003",
+    "nombre": "Lija Agua N° 80",
+    "precio_inicial": 1.00,
+    "precio_venta": 1.30
+  },
+  {
+    "codigo": "P004",
+    "nombre": "Lija Agua N° 100",
+    "precio_inicial": 1.00,
+    "precio_venta": 1.30
+  },
+  {
+    "codigo": "P005",
+    "nombre": "Lija Agua N° 120",
+    "precio_inicial": 1.00,
+    "precio_venta": 1.30
+  },
+  {
+    "codigo": "P006",
+    "nombre": "Lija Agua N° 150",
+    "precio_inicial": 1.00,
+    "precio_venta": 1.30
+  },
+  {
+    "codigo": "P007",
+    "nombre": "Lija Agua N° 180",
+    "precio_inicial": 1.00,
+    "precio_venta": 1.30
+  },
+  {
+    "codigo": "P009",
+    "nombre": "Lija Agua N° 220",
+    "precio_inicial": 1.00,
+    "precio_venta": 1.30
+  },
+  {
+    "codigo": "P010",
+    "nombre": "Lija Agua N° 360",
+    "precio_inicial": 1.00,
+    "precio_venta": 1.30
+  },
+  {
+    "codigo": "P011",
+    "nombre": "Lija Agua N° 1500",
+    "precio_inicial": 1.00,
+    "precio_venta": 1.30
+  },
+  {
+    "codigo": "P012",
+    "nombre": "Lija Agua N° 1000",
+    "precio_inicial": 1.00,
+    "precio_venta": 1.30
+  },
+  {
+    "codigo": "P013",
+    "nombre": "Lija Fierro N° 40",
+    "precio_inicial": 3.70,
+    "precio_venta": 4.20
+  },
+  {
+    "codigo": "P014",
+    "nombre": "Lija Fierro N° 60",
+    "precio_inicial": 3.60,
+    "precio_venta": 4.00
+  },
+  {
+    "codigo": "P015",
+    "nombre": "Lija Fierro N° 80",
+    "precio_inicial": 3.60,
+    "precio_venta": 3.90
+  },
+  {
+    "codigo": "P016",
+    "nombre": "Lija Agua N° 100",
+    "precio_inicial":3.00,
+    "precio_venta": 3.40
+  },
+
+  {
+    "codigo": "P018",
+    "nombre": "Lija Fierro N° 150",
+    "precio_inicial": 2.60,
+    "precio_venta": 3.00
+  },
+  {
+    "codigo": "P019",
+    "nombre": "Lija Fierro N° 180",
+    "precio_inicial": 2.40,
+    "precio_venta": 2.90
+  }
+]

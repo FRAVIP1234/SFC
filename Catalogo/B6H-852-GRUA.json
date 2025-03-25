@@ -1,0 +1,44 @@
+[
+    {
+        "codigo": "B6H-852-grua-001",
+        "nombre": "Kit de retenes de pistones 1\u00b0y 2\u00b0",
+        "precio_inicial": 0.0,
+        "precio_venta": 580.0
+    },
+    {
+        "codigo": "B6H-852-grua-002",
+        "nombre": "Kit de retenes de pistones estabilizadores",
+        "precio_inicial": 0.0,
+        "precio_venta": 450.0
+    },
+    {
+        "codigo": "B6H-852-grua-003",
+        "nombre": "Pin de brazo y pistones",
+        "precio_inicial": 0.0,
+        "precio_venta": 490.0
+    },
+    {
+        "codigo": "B6H-852-grua-004",
+        "nombre": "Kit de pintura en general del brazo hidr\u00e1ulico",
+        "precio_inicial": 0.0,
+        "precio_venta": 1700.0
+    },
+    {
+        "codigo": "B6H-852-grua-005",
+        "nombre": "Kit de pernos en general",
+        "precio_inicial": 0.0,
+        "precio_venta": 940.0
+    },
+    {
+        "codigo": "B6H-852-grua-006",
+        "nombre": "Bomba hidr\u00e1ulica",
+        "precio_inicial": 0.0,
+        "precio_venta": 5600.0
+    },
+    {
+        "codigo": "B6H-852-grua-007",
+        "nombre": "Aceite hidr\u00e1ulico (gal\u00f3n)",
+        "precio_inicial": 0.0,
+        "precio_venta": 75.0
+    }
+]

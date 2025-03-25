@@ -1,0 +1,386 @@
+[
+    {
+        "codigo": "F9F-717-camion-001",
+        "nombre": "Chapas de puertas",
+        "precio_inicial": 0.0,
+        "precio_venta": 340.0
+    },
+    {
+        "codigo": "F9F-717-camion-002",
+        "nombre": "Manijas de las lunas",
+        "precio_inicial": 0.0,
+        "precio_venta": 80.0
+    },
+    {
+        "codigo": "F9F-717-camion-003",
+        "nombre": "Base de las lunas de puertas",
+        "precio_inicial": 0.0,
+        "precio_venta": 240.0
+    },
+    {
+        "codigo": "F9F-717-camion-004",
+        "nombre": "Luz de cabina",
+        "precio_inicial": 0.0,
+        "precio_venta": 120.0
+    },
+    {
+        "codigo": "F9F-717-camion-005",
+        "nombre": "Tapizado de asientos",
+        "precio_inicial": 0.0,
+        "precio_venta": 800.0
+    },
+    {
+        "codigo": "F9F-717-camion-006",
+        "nombre": "Cintur\u00f3n de seguridad (piloto \u2013 copiloto)",
+        "precio_inicial": 0.0,
+        "precio_venta": 210.0
+    },
+    {
+        "codigo": "F9F-717-camion-007",
+        "nombre": "Soporte del parachoques",
+        "precio_inicial": 0.0,
+        "precio_venta": 140.0
+    },
+    {
+        "codigo": "F9F-717-camion-008",
+        "nombre": "Parachoques posteriores",
+        "precio_inicial": 0.0,
+        "precio_venta": 680.0
+    },
+    {
+        "codigo": "F9F-717-camion-009",
+        "nombre": "Limpia para brizas",
+        "precio_inicial": 0.0,
+        "precio_venta": 60.0
+    },
+    {
+        "codigo": "F9F-717-camion-010",
+        "nombre": "Sistema el\u00e9ctrico general",
+        "precio_inicial": 0.0,
+        "precio_venta": 280.0
+    },
+    {
+        "codigo": "F9F-717-camion-011",
+        "nombre": "Faros delanteros",
+        "precio_inicial": 0.0,
+        "precio_venta": 590.0
+    },
+    {
+        "codigo": "F9F-717-camion-012",
+        "nombre": "Faros de neblineros led",
+        "precio_inicial": 0.0,
+        "precio_venta": 140.0
+    },
+    {
+        "codigo": "F9F-717-camion-013",
+        "nombre": "Faros piratas led",
+        "precio_inicial": 0.0,
+        "precio_venta": 180.0
+    },
+    {
+        "codigo": "F9F-717-camion-014",
+        "nombre": "Faros superiores exteriores de cabina",
+        "precio_inicial": 0.0,
+        "precio_venta": 90.0
+    },
+    {
+        "codigo": "F9F-717-camion-015",
+        "nombre": "Arrancador",
+        "precio_inicial": 0.0,
+        "precio_venta": 2900.0
+    },
+    {
+        "codigo": "F9F-717-camion-016",
+        "nombre": "Alternador",
+        "precio_inicial": 0.0,
+        "precio_venta": 1600.0
+    },
+    {
+        "codigo": "F9F-717-camion-017",
+        "nombre": "Amortiguadores delanteros",
+        "precio_inicial": 0.0,
+        "precio_venta": 740.0
+    },
+    {
+        "codigo": "F9F-717-camion-018",
+        "nombre": "Amortiguadores posteriores",
+        "precio_inicial": 0.0,
+        "precio_venta": 600.0
+    },
+    {
+        "codigo": "F9F-717-camion-019",
+        "nombre": "Soporte ballesta o muelles",
+        "precio_inicial": 0.0,
+        "precio_venta": 190.0
+    },
+    {
+        "codigo": "F9F-717-camion-020",
+        "nombre": "Pines de soporte del muelle",
+        "precio_inicial": 0.0,
+        "precio_venta": 120.0
+    },
+    {
+        "codigo": "F9F-717-camion-021",
+        "nombre": "Abrazaderas de ballestas",
+        "precio_inicial": 0.0,
+        "precio_venta": 98.0
+    },
+    {
+        "codigo": "F9F-717-camion-022",
+        "nombre": "Topes de chasis",
+        "precio_inicial": 0.0,
+        "precio_venta": 140.0
+    },
+    {
+        "codigo": "F9F-717-camion-023",
+        "nombre": "Jebes de amortiguadores de las ballestas",
+        "precio_inicial": 0.0,
+        "precio_venta": 90.0
+    },
+    {
+        "codigo": "F9F-717-camion-024",
+        "nombre": "Ballestas principales (hoja madis del muelle)",
+        "precio_inicial": 0.0,
+        "precio_venta": 790.0
+    },
+    {
+        "codigo": "F9F-717-camion-025",
+        "nombre": "Crucetas de direcci\u00f3n",
+        "precio_inicial": 0.0,
+        "precio_venta": 240.0
+    },
+    {
+        "codigo": "F9F-717-camion-026",
+        "nombre": "Terminales",
+        "precio_inicial": 0.0,
+        "precio_venta": 280.0
+    },
+    {
+        "codigo": "F9F-717-camion-027",
+        "nombre": "Barra de direcci\u00f3n",
+        "precio_inicial": 0.0,
+        "precio_venta": 2600.0
+    },
+    {
+        "codigo": "F9F-717-camion-028",
+        "nombre": "Rodaje de ruedas delanteras",
+        "precio_inicial": 0.0,
+        "precio_venta": 480.0
+    },
+    {
+        "codigo": "F9F-717-camion-029",
+        "nombre": "Rodajes de ruedas posteriores",
+        "precio_inicial": 0.0,
+        "precio_venta": 580.0
+    },
+    {
+        "codigo": "F9F-717-camion-030",
+        "nombre": "Pernos de ruedas",
+        "precio_inicial": 0.0,
+        "precio_venta": 180.0
+    },
+    {
+        "codigo": "F9F-717-camion-031",
+        "nombre": "Mantenimiento de caja de direcci\u00f3n",
+        "precio_inicial": 0.0,
+        "precio_venta": 3200.0
+    },
+    {
+        "codigo": "F9F-717-camion-032",
+        "nombre": "Kit de Servo",
+        "precio_inicial": 0.0,
+        "precio_venta": 2400.0
+    },
+    {
+        "codigo": "F9F-717-camion-033",
+        "nombre": "Fajas de accesorio",
+        "precio_inicial": 0.0,
+        "precio_venta": 480.0
+    },
+    {
+        "codigo": "F9F-717-camion-034",
+        "nombre": "Kit de embrague",
+        "precio_inicial": 0.0,
+        "precio_venta": 3800.0
+    },
+    {
+        "codigo": "F9F-717-camion-035",
+        "nombre": "Kit Diferencial (rodajes, corona, planetario, pi\u00f1\u00f3n de ataque)",
+        "precio_inicial": 0.0,
+        "precio_venta": 3300.0
+    },
+    {
+        "codigo": "F9F-717-camion-036",
+        "nombre": "Aceite de transmisi\u00f3n (corona, caja, velocidades)",
+        "precio_inicial": 0.0,
+        "precio_venta": 690.0
+    },
+    {
+        "codigo": "F9F-717-camion-037",
+        "nombre": "Jefes de centro",
+        "precio_inicial": 0.0,
+        "precio_venta": 940.0
+    },
+    {
+        "codigo": "F9F-717-camion-038",
+        "nombre": "Tambores posteriores",
+        "precio_inicial": 0.0,
+        "precio_venta": 3800.0
+    },
+    {
+        "codigo": "F9F-717-camion-039",
+        "nombre": "Tambores delanteros",
+        "precio_inicial": 0.0,
+        "precio_venta": 4200.0
+    },
+    {
+        "codigo": "F9F-717-camion-040",
+        "nombre": "Zapatas",
+        "precio_inicial": 0.0,
+        "precio_venta": 490.0
+    },
+    {
+        "codigo": "F9F-717-camion-041",
+        "nombre": "Pulmones de break",
+        "precio_inicial": 0.0,
+        "precio_venta": 640.0
+    },
+    {
+        "codigo": "F9F-717-camion-042",
+        "nombre": "Resortes",
+        "precio_inicial": 0.0,
+        "precio_venta": 24.0
+    },
+    {
+        "codigo": "F9F-717-camion-043",
+        "nombre": "Bombines",
+        "precio_inicial": 0.0,
+        "precio_venta": 340.0
+    },
+    {
+        "codigo": "F9F-717-camion-044",
+        "nombre": "Raches",
+        "precio_inicial": 0.0,
+        "precio_venta": 440.0
+    },
+    {
+        "codigo": "F9F-717-camion-045",
+        "nombre": "Gavilanes de frenos",
+        "precio_inicial": 0.0,
+        "precio_venta": 1280.0
+    },
+    {
+        "codigo": "F9F-717-camion-046",
+        "nombre": "V\u00e1lvulas de desfogues de aire",
+        "precio_inicial": 0.0,
+        "precio_venta": 280.0
+    },
+    {
+        "codigo": "F9F-717-camion-047",
+        "nombre": "Secador de aire",
+        "precio_inicial": 0.0,
+        "precio_venta": 740.0
+    },
+    {
+        "codigo": "F9F-717-camion-048",
+        "nombre": "Tanque de aire",
+        "precio_inicial": 0.0,
+        "precio_venta": 1800.0
+    },
+    {
+        "codigo": "F9F-717-camion-049",
+        "nombre": "Compresora (kit de reparaci\u00f3n)",
+        "precio_inicial": 0.0,
+        "precio_venta": 3200.0
+    },
+    {
+        "codigo": "F9F-717-camion-050",
+        "nombre": "Gobernador",
+        "precio_inicial": 0.0,
+        "precio_venta": 1400.0
+    },
+    {
+        "codigo": "F9F-717-camion-051",
+        "nombre": "Ca\u00f1er\u00edas de aire",
+        "precio_inicial": 0.0,
+        "precio_venta": 38.0
+    },
+    {
+        "codigo": "F9F-717-camion-052",
+        "nombre": "Bombas de frenos",
+        "precio_inicial": 0.0,
+        "precio_venta": 3600.0
+    },
+    {
+        "codigo": "F9F-717-camion-053",
+        "nombre": "Kit reparaci\u00f3n de motor",
+        "precio_inicial": 0.0,
+        "precio_venta": 34000.0
+    },
+    {
+        "codigo": "F9F-717-camion-054",
+        "nombre": "Reparaci\u00f3n de alimentaci\u00f3n de combustible",
+        "precio_inicial": 0.0,
+        "precio_venta": 3900.0
+    },
+    {
+        "codigo": "F9F-717-camion-055",
+        "nombre": "Kit de pintura de cabina - retoque",
+        "precio_inicial": 0.0,
+        "precio_venta": 3800.0
+    },
+    {
+        "codigo": "F9F-717-camion-056",
+        "nombre": "Bomba de inyecci\u00f3n kit",
+        "precio_inicial": 0.0,
+        "precio_venta": 10600.0
+    },
+    {
+        "codigo": "F9F-717-camion-057",
+        "nombre": "Bomba de auxiliar",
+        "precio_inicial": 0.0,
+        "precio_venta": 940.0
+    },
+    {
+        "codigo": "F9F-717-camion-058",
+        "nombre": "Manguera de alimentaci\u00f3n",
+        "precio_inicial": 0.0,
+        "precio_venta": 980.0
+    },
+    {
+        "codigo": "F9F-717-camion-059",
+        "nombre": "Refrigerante de motor 50% concentrado",
+        "precio_inicial": 0.0,
+        "precio_venta": 70.0
+    },
+    {
+        "codigo": "F9F-717-camion-060",
+        "nombre": "Kit de filtro en general",
+        "precio_inicial": 0.0,
+        "precio_venta": 790.0
+    },
+    {
+        "codigo": "F9F-717-camion-061",
+        "nombre": "Radiador",
+        "precio_inicial": 0.0,
+        "precio_venta": 3600.0
+    },
+    {
+        "codigo": "F9F-717-camion-062",
+        "nombre": "Ventilador",
+        "precio_inicial": 0.0,
+        "precio_venta": 1700.0
+    },
+    {
+        "codigo": "F9F-717-camion-063",
+        "nombre": "Bomba de agua",
+        "precio_inicial": 0.0,
+        "precio_venta": 980.0
+    },
+    {
+        "codigo": "F9F-717-camion-064",
+        "nombre": "Enfriador de aceite",
+        "precio_inicial": 0.0,
+        "precio_venta": 2400.0
+    }
+]

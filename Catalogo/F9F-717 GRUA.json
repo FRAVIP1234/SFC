@@ -1,0 +1,230 @@
+[
+    {
+        "codigo": "F9F-717-grua-001",
+        "nombre": "Kit de reten de pist\u00f3n elevaci\u00f3n y basculante",
+        "precio_inicial": 0.0,
+        "precio_venta": 900.0
+    },
+    {
+        "codigo": "F9F-717-grua-002",
+        "nombre": "Cromado de ejes de elevaci\u00f3n y basculante",
+        "precio_inicial": 0.0,
+        "precio_venta": 4980.0
+    },
+    {
+        "codigo": "F9F-717-grua-003",
+        "nombre": "Cromado de ejes de pistones de prolonga",
+        "precio_inicial": 0.0,
+        "precio_venta": 3880.0
+    },
+    {
+        "codigo": "F9F-717-grua-004",
+        "nombre": "Kit de retenes del pist\u00f3n de prolonga",
+        "precio_inicial": 0.0,
+        "precio_venta": 450.0
+    },
+    {
+        "codigo": "F9F-717-grua-005",
+        "nombre": "Kit de retenes del sistema de giro",
+        "precio_inicial": 0.0,
+        "precio_venta": 480.0
+    },
+    {
+        "codigo": "F9F-717-grua-006",
+        "nombre": "Kit de retenes de gato de apoyo",
+        "precio_inicial": 0.0,
+        "precio_venta": 680.0
+    },
+    {
+        "codigo": "F9F-717-grua-007",
+        "nombre": "Cilindro de gato de apoyo",
+        "precio_inicial": 0.0,
+        "precio_venta": 4300.0
+    },
+    {
+        "codigo": "F9F-717-grua-008",
+        "nombre": "Cromado del gato eje de apoyo posterior",
+        "precio_inicial": 0.0,
+        "precio_venta": 4700.0
+    },
+    {
+        "codigo": "F9F-717-grua-009",
+        "nombre": "Kit de retenes de las extensiones del gato de apoyo",
+        "precio_inicial": 0.0,
+        "precio_venta": 400.0
+    },
+    {
+        "codigo": "F9F-717-grua-010",
+        "nombre": "Soporte de canastilla",
+        "precio_inicial": 0.0,
+        "precio_venta": 1400.0
+    },
+    {
+        "codigo": "F9F-717-grua-011",
+        "nombre": "Pist\u00f3n de nivelaci\u00f3n de canastilla",
+        "precio_inicial": 0.0,
+        "precio_venta": 3950.0
+    },
+    {
+        "codigo": "F9F-717-grua-012",
+        "nombre": "Kit de manguera en general",
+        "precio_inicial": 0.0,
+        "precio_venta": 5600.0
+    },
+    {
+        "codigo": "F9F-717-grua-013",
+        "nombre": "Aceite hidr\u00e1ulico en general del sistema (gal\u00f3n)",
+        "precio_inicial": 0.0,
+        "precio_venta": 75.0
+    },
+    {
+        "codigo": "F9F-717-grua-014",
+        "nombre": "Filtros en general del sistema hidr\u00e1ulico",
+        "precio_inicial": 0.0,
+        "precio_venta": 1700.0
+    },
+    {
+        "codigo": "F9F-717-grua-015",
+        "nombre": "Gu\u00edas de cajones de prolonga",
+        "precio_inicial": 0.0,
+        "precio_venta": 1400.0
+    },
+    {
+        "codigo": "F9F-717-grua-016",
+        "nombre": "Gu\u00edas del sistema de giro",
+        "precio_inicial": 0.0,
+        "precio_venta": 4500.0
+    },
+    {
+        "codigo": "F9F-717-grua-017",
+        "nombre": "Bocina de pines en general",
+        "precio_inicial": 0.0,
+        "precio_venta": 280.0
+    },
+    {
+        "codigo": "F9F-717-grua-018",
+        "nombre": "Pin de pistones",
+        "precio_inicial": 0.0,
+        "precio_venta": 480.0
+    },
+    {
+        "codigo": "F9F-717-grua-019",
+        "nombre": "Manguera de succi\u00f3n y salida",
+        "precio_inicial": 0.0,
+        "precio_venta": 780.0
+    },
+    {
+        "codigo": "F9F-717-grua-020",
+        "nombre": "Bomba hidr\u00e1ulica",
+        "precio_inicial": 0.0,
+        "precio_venta": 5900.0
+    },
+    {
+        "codigo": "F9F-717-grua-021",
+        "nombre": "Cople de bomba hidr\u00e1ulica y toma fuerza",
+        "precio_inicial": 0.0,
+        "precio_venta": 7400.0
+    },
+    {
+        "codigo": "F9F-717-grua-022",
+        "nombre": "Cadena de manguera",
+        "precio_inicial": 0.0,
+        "precio_venta": 4900.0
+    },
+    {
+        "codigo": "F9F-717-grua-023",
+        "nombre": "Manguera de lavado",
+        "precio_inicial": 0.0,
+        "precio_venta": 1300.0
+    },
+    {
+        "codigo": "F9F-717-grua-024",
+        "nombre": "Kit de sensores del sistema hidro lavado",
+        "precio_inicial": 0.0,
+        "precio_venta": 5300.0
+    },
+    {
+        "codigo": "F9F-717-grua-025",
+        "nombre": "Kit de habilitaci\u00f3n del sistema PLC- cambio modulo",
+        "precio_inicial": 0.0,
+        "precio_venta": 9400.0
+    },
+    {
+        "codigo": "F9F-717-grua-026",
+        "nombre": "Kit electro v\u00e1lvula del sistema de aceleraci\u00f3n del motor",
+        "precio_inicial": 0.0,
+        "precio_venta": 1400.0
+    },
+    {
+        "codigo": "F9F-717-grua-027",
+        "nombre": "Kit de mantenimiento del sistema de hidrolavado",
+        "precio_inicial": 0.0,
+        "precio_venta": 3900.0
+    },
+    {
+        "codigo": "F9F-717-grua-028",
+        "nombre": "Filtro de agua de lavado",
+        "precio_inicial": 0.0,
+        "precio_venta": 1200.0
+    },
+    {
+        "codigo": "F9F-717-grua-029",
+        "nombre": "Pintura en general de brazo hidr\u00e1ulico y carrocer\u00eda",
+        "precio_inicial": 0.0,
+        "precio_venta": 4500.0
+    },
+    {
+        "codigo": "F9F-717-grua-030",
+        "nombre": "Cromado de eje de las extensiones estabilizadoras posteriores",
+        "precio_inicial": 0.0,
+        "precio_venta": 5400.0
+    },
+    {
+        "codigo": "F9F-717-grua-031",
+        "nombre": "Kit de pernos de brazo",
+        "precio_inicial": 0.0,
+        "precio_venta": 740.0
+    },
+    {
+        "codigo": "F9F-717-grua-032",
+        "nombre": "Base de brazo",
+        "precio_inicial": 0.0,
+        "precio_venta": 3500.0
+    },
+    {
+        "codigo": "F9F-717-grua-033",
+        "nombre": "Pistola de lavado m\u00e1s accesorios",
+        "precio_inicial": 0.0,
+        "precio_venta": 1800.0
+    },
+    {
+        "codigo": "F9F-717-grua-034",
+        "nombre": "Kit de sticker",
+        "precio_inicial": 0.0,
+        "precio_venta": 800.0
+    },
+    {
+        "codigo": "F9F-717-grua-035",
+        "nombre": "Prueba de esfuerzo mec\u00e1nicos y certificaci\u00f3n",
+        "precio_inicial": 0.0,
+        "precio_venta": 3700.0
+    },
+    {
+        "codigo": "F9F-717-grua-036",
+        "nombre": "Prueba de aislamiento y certificaci\u00f3n de punto aislado",
+        "precio_inicial": 0.0,
+        "precio_venta": 1700.0
+    },
+    {
+        "codigo": "F9F-717-grua-037",
+        "nombre": "Funda de manguera",
+        "precio_inicial": 0.0,
+        "precio_venta": 780.0
+    },
+    {
+        "codigo": "F9F-717-grua-038",
+        "nombre": "Protector de manguera helicoidal",
+        "precio_inicial": 0.0,
+        "precio_venta": 1600.0
+    }
+]
