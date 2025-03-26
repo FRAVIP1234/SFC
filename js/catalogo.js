@@ -1,61 +1,85 @@
 let catalogoProductos = [];
 
-// Función para cargar múltiples JSON desde la carpeta "Catalogo"
+// Función para cargar múltiples JSON desde la carpeta "Productos"
 async function cargarCatalogoDesdeCarpeta() {
-    const archivosJSON = ["Lijas.json","B6M-880 CAMION.json","B6M-880 GRUA.json","B6H-852-GRUA.json","B6H-852-CAMION.json","F9F-717 GRUA.json","F9F-717 CAMION.json"]; // Agrega más archivos según sea necesario
-    const carpeta = "Catalogo/";
+    const archivosJSON = [
+       "B6M880GRUA.json",
+       "Lijas.json",
+       "F9F717GRUA.json",
+       "F9F717CAMION.json",
+       "B6M-880camion.json",
+       "B6H852GRUA.json",
+       "B6H852CAMION.json"
+    ];
+
+    const carpeta = "../Catalogo/";
 
     try {
-        let promesas = archivosJSON.map(archivo =>
-            fetch(carpeta + archivo)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error(`Error al cargar ${archivo}: ${response.status}`);
-                    }
-                    return response.json();
-                })
-        );
+        let promesas = archivosJSON.map(async (archivo) => {
+            let ruta = carpeta + archivo;
+            try {
+                let response = await fetch(ruta);
+                if (!response.ok) {
+                    throw new Error(`Error al cargar ${archivo}: ${response.status}`);
+                }
+                return await response.json();
+            } catch (error) {
+                console.error(`Error en archivo ${archivo}:`, error);
+                return null;
+            }
+        });
 
         const datos = await Promise.all(promesas);
-        catalogoProductos = datos.flat(); // Unir todos los JSON en una sola lista
+        catalogoProductos = datos.flat().filter(producto => producto !== null);
 
-        console.log("Datos cargados:", catalogoProductos);
-        cargarCatalogo(catalogoProductos);
+        mostrarCatalogo(catalogoProductos);
     } catch (error) {
         console.error("Error al cargar JSON:", error);
     }
 }
 
-// Mostrar y ocultar modal
+// Variables del modal
+const modal = document.getElementById("searchModal");
+
+// Mostrar y ocultar modal con animación
 document.getElementById("openSearchModal").addEventListener("click", () => {
-    
-    document.getElementById("searchModal").style.display = "flex";
-    document.getElementById("searchModal").classList.add("modal-activo"); // Mejor animación en móviles
-    
+    modal.style.display = "flex";
+    modal.classList.add("modal-activo", "fade-in");
     cargarCatalogoDesdeCarpeta();
 });
 
 document.getElementById("cerrarModal").addEventListener("click", () => {
-    document.getElementById("searchModal").style.display = "none";
+    modal.classList.remove("fade-in");
+    modal.classList.add("fade-out");
+    setTimeout(() => {
+        modal.style.display = "none";
+        modal.classList.remove("fade-out");
+    }, 300);
 });
 
 // Función para mostrar los productos en el modal
-function cargarCatalogo(productos) {
+function mostrarCatalogo(productos) {
     const catalogoBody = document.getElementById("catalogoBody");
     catalogoBody.innerHTML = "";
 
     if (!productos || productos.length === 0) {
-        catalogoBody.innerHTML = `<tr><td colspan="5">No hay productos disponibles</td></tr>`;
+        catalogoBody.innerHTML = "<tr><td colspan='5'>No hay productos disponibles</td></tr>";
         return;
     }
 
     productos.forEach(prod => {
+        if (!prod.codigo || !prod.nombre || isNaN(prod.precio_venta)) {
+            console.warn("Producto con datos incorrectos:", prod);
+            return;
+        }
+
         const fila = document.createElement("tr");
+        fila.classList.add("fade-in");
         fila.innerHTML = `
             <td>${prod.codigo}</td>
             <td>${prod.nombre}</td>
-            <td>${prod.precio_inicial}</td>
-            <td>${prod.precio_venta}</td>
+            <td>${parseFloat(prod.precio_inicial).toFixed(2)}</td>
+            <td>${parseFloat(prod.precio_venta).toFixed(2)}</td>
             <td>
                 <input type="number" id="cantidad-${prod.codigo}" placeholder="Cant." style="width: 60px;">
                 <input type="number" id="ajuste-${prod.codigo}" placeholder="Desc/Aum" style="width: 80px;">
@@ -66,23 +90,27 @@ function cargarCatalogo(productos) {
     });
 }
 
-// Buscar producto por código o nombre
+// Evento para buscar producto por código o nombre
 document.getElementById("buscarProductoBtn").addEventListener("click", () => {
     const valorBusqueda = document.getElementById("buscarProductoInput").value.toLowerCase();
     const resultados = catalogoProductos.filter(prod => 
         prod.codigo.toLowerCase().includes(valorBusqueda) ||
         prod.nombre.toLowerCase().includes(valorBusqueda)
     );
-    cargarCatalogo(resultados);
+    mostrarCatalogo(resultados);
 });
 
 // Agregar producto desde catálogo a la tabla principal
 function agregarDesdeCatalogo(codigoProd) {
     const producto = catalogoProductos.find(p => p.codigo === codigoProd);
-    const cantidad = parseInt(document.getElementById(`cantidad-${codigoProd}`).value);
+    if (!producto) {
+        alert("Producto no encontrado.");
+        return;
+    }
+    const cantidad = parseInt(document.getElementById(`cantidad-${codigoProd}`).value) || 0;
     const ajuste = parseFloat(document.getElementById(`ajuste-${codigoProd}`).value) || 0;
 
-    if (!cantidad || cantidad <= 0) {
+    if (cantidad <= 0) {
         alert("Ingresa una cantidad válida.");
         return;
     }
@@ -90,9 +118,9 @@ function agregarDesdeCatalogo(codigoProd) {
     const precioUnitario = parseFloat(producto.precio_venta) + ajuste;
     const precioFinal = precioUnitario * cantidad;
 
-    // Agregar a la tabla principal
     const tabla = document.getElementById("productTable");
     const fila = document.createElement("tr");
+    fila.classList.add("fade-in");
     fila.innerHTML = `
         <td>${producto.codigo}</td>
         <td>${producto.nombre}</td>
@@ -106,11 +134,28 @@ function agregarDesdeCatalogo(codigoProd) {
     `;
     tabla.appendChild(fila);
     actualizarTotales();
-
-    // Cerrar modal
-    searchModal.style.display = "none";
+    modal.style.display = "none";
 }
 
+// Editar cantidad o precio en la tabla
+function editarFila(btn) {
+    const fila = btn.parentElement.parentElement;
+    const cantidadActual = parseFloat(fila.children[2].textContent);
+    const precioUnitarioActual = parseFloat(fila.children[3].textContent);
+
+    const nuevaCantidad = prompt("Nueva cantidad:", cantidadActual);
+    const nuevoPrecio = prompt("Nuevo precio unitario:", precioUnitarioActual);
+
+    if (!isNaN(nuevaCantidad) && nuevaCantidad > 0) {
+        fila.children[2].textContent = nuevaCantidad;
+        fila.children[4].textContent = (nuevoPrecio * nuevaCantidad).toFixed(2);
+        actualizarTotales();
+    } else {
+        alert("Cantidad inválida.");
+    }
+}
+
+// Eliminar fila con animación
 function editarFila(btn) {
     const fila = btn.parentElement.parentElement;
     const cantidadActual = parseFloat(fila.children[2].textContent);
@@ -130,7 +175,7 @@ function editarFila(btn) {
         cancelButtonColor: '#ffc107'
     }).then((result) => {
         if (result.isConfirmed) {
-            // Editar Cantidad
+            // Editar cantidad
             Swal.fire({
                 title: 'Editar cantidad',
                 input: 'number',
@@ -146,9 +191,8 @@ function editarFila(btn) {
                     actualizarTotales();
                 }
             });
-
         } else if (result.isDenied) {
-            // Editar Precio Unitario
+            // Editar precio unitario
             Swal.fire({
                 title: 'Editar precio unitario',
                 input: 'number',
@@ -164,9 +208,8 @@ function editarFila(btn) {
                     actualizarTotales();
                 }
             });
-
         } else if (result.dismiss === Swal.DismissReason.cancel) {
-            // Descuento o Aumento
+            // Descuento o aumento
             Swal.fire({
                 title: "¿Quieres descontar o aumentar?",
                 showDenyButton: true,
@@ -190,11 +233,11 @@ function editarFila(btn) {
                         showCancelButton: true,
                     }).then(({ value }) => {
                         if (!isNaN(value) && value !== null) {
-                            const ajuste = parseFloat(value);
+                            const monto = parseFloat(value);
                             const nuevoPrecio = result.isConfirmed
-                                ? precioUnitarioActual - ajuste // Descontar
-                                : precioUnitarioActual + ajuste; // Aumentar
-
+                                ? precioUnitarioActual - monto
+                                : precioUnitarioActual + monto;
+    
                             fila.children[3].textContent = nuevoPrecio.toFixed(2);
                             fila.children[4].textContent = (nuevoPrecio * cantidadActual).toFixed(2);
                             actualizarTotales();
@@ -224,20 +267,27 @@ function eliminarFila(btn) {
         }
     });
 }
-
-
+// Calcular y actualizar totales
 function actualizarTotales() {
     let subtotal = 0;
-    const filas = document.querySelectorAll("#productTable tr");
-    filas.forEach(fila => {
-        const precioFinal = parseFloat(fila.children[4].textContent);
+    document.querySelectorAll("#productTable tr").forEach(fila => {
+        const precioFinal = parseFloat(fila.children[4].textContent) || 0;
         subtotal += precioFinal;
     });
-
+    
     const igv = subtotal * 0.18;
     const total = subtotal + igv;
-
+    
     document.getElementById("subtotal").textContent = subtotal.toFixed(2);
     document.getElementById("igv").textContent = igv.toFixed(2);
     document.getElementById("total").textContent = total.toFixed(2);
 }
+
+// Adaptabilidad a dispositivos móviles
+window.addEventListener("resize", () => {
+    if (window.innerWidth < 768) {
+        document.body.classList.add("mobile-view");
+    } else {
+        document.body.classList.remove("mobile-view");
+    }
+});
